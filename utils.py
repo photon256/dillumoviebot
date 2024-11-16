@@ -7,6 +7,7 @@ from info import *
 from imdb import Cinemagoer 
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import enums
+from database.users_chats_db import db
 from pyrogram.errors import *
 from typing import Union
 from Script import script
