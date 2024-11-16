@@ -74,8 +74,8 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
-PAYMENT_QR = environ.get('PAYMENT_QR', '')
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/b69af2db776e4e85d21ec.jpg')
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', 'Nothing')
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
